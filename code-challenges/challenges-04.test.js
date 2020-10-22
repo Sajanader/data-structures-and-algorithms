@@ -62,7 +62,7 @@ Return an array containing all the matches.
 const isCapitalized = (str) => {
   // Solution code here...
   let arrOfString=[];
-  const pattern =/\b[A-Z].*?\b/g;
+  const pattern =/\b[A-Z]\w+/g;
   if(str.match(pattern)){
     arrOfString= str.match(pattern);
   }
