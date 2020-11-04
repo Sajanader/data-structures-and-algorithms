@@ -490,3 +490,4 @@ xdescribe('Testing challenge 9', () => {
     expect(extractChildren(characters).length).toStrictEqual(10);
   });
 });
+
