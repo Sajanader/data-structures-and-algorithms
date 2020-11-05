@@ -161,7 +161,7 @@ const currentEvents = {
 
 function getCurrentEvents(request, response){
   // Solution code here...
-  
+
 }
 
 const mapCurrentEvents = () => {
@@ -491,3 +491,4 @@ xdescribe('Testing challenge 9', () => {
     expect(extractChildren(characters).length).toStrictEqual(10);
   });
 });
+
