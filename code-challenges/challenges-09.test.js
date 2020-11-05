@@ -161,6 +161,7 @@ const currentEvents = {
 
 function getCurrentEvents(request, response){
   // Solution code here...
+
 }
 
 const mapCurrentEvents = () => {
